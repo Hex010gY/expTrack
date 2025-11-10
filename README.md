@@ -1,5 +1,8 @@
 # expTrack
 Expenses tracker application built on html, css, js and bootstrap.
+Hosted on apache2 server that runs php and MYSQL. 
+Simple lightweight and practical. 
+
 
 Site map
 - Home — index.html
