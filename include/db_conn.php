@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 // db configuration file
-$host = 'localhost';      // db host 
-$db   = 'exp';  // db name
-$user = 'root';           // mysql usr
-$pass = 'toor';               // mysql pass
+$host = '*****';      // db host 
+$db   = '*****';  // db name
+$user = '*****';           // mysql usr
+$pass = '*****';               // mysql pass
 $charset = 'utf8mb4';
 
 //--DSN
@@ -22,4 +22,5 @@ try {
 } catch (PDOException $e) {
     // shit is happenning on connection 
     die('Database Connection Failed: ' . htmlspecialchars($e->getMessage()));
+
 }
